@@ -516,10 +516,13 @@ form textarea {
     line-height: 140%;
     color: #999;
 }
-code {
+#respond code {
     font-style: italic;
     font-size: 12px;
     font-weight: 11;
+    background:none;
+    border:none;
+    white-space: normal;
 }
 /* --------------------- Misc. stuff ------------------ */
 
@@ -676,4 +679,16 @@ article header {
     background-image: linear-gradient(top, rgb(114, 171, 9), rgb(147, 189, 78));
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#72ab09', EndColorStr='#93bd4e');
 
+}
+
+code{
+    font-family:"Courier New", Courier, monospace;
+    font-size: 14px;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    margin: -2px 2px 0 2px;
+    padding: 2px 4px 0 4px;
+    font-style:normal;
 }
