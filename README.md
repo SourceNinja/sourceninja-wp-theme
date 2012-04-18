@@ -6,4 +6,4 @@
 * Activate the theme located in `/themes/sourceninja-wp-theme/SourceNinjaTheme` from your local wordpress installation dashboard
 
 ## Installing Theme on SourceNinja Blog
-* Upload SourceNinjaTheme folder to wp/content/themes via sftp
+* Upload SourceNinjaTheme folder to wp-content/themes via sftp
