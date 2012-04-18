@@ -1,11 +1,9 @@
 <class id="side_bar">
     <div class="right_side">
         <div id="secondary">
-            <h4>Alpha Sign Up</h4>
-            <p>
-                We are only accepting a few more users into our private alpha. Sign up if you would like to be considered.
-            </p>
-            <a href="http://www.sourceninja.com/sign-up.html" class="sign_up">Sign Up</a>
+            <h4>30-Day Free Trial</h4>
+            <p>Know what patches are available so that you can upgrade your open source dependencies with confidence.</p>
+            <a href="https://app.sourceninja.com/plans" class="sign_up">Sign Up</a>
         </div>
     </div>
     <div class="right_side">

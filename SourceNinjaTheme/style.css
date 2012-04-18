@@ -110,7 +110,7 @@ html {
 h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
     font-weight:normal;
     color: #444444;
-    padding-top:20px;
+    padding-top:10px;
     margin-bottom:10px;
 }
 
@@ -418,14 +418,16 @@ form textarea {
     margin-bottom: 20px;
 }
 #secondary h4 {
-    color: #bbbbbb;
+    color: #888888;
     font-size: 26px;
     margin: 0 0 10px;
+    padding:0;
 }
 .right_side h3 {
     color: #bbb;
     margin-left: 8px;
     margin-bottom: 5px;
+    padding:0;
 }
 .fb-like-box {
     margin-left: -10px;
@@ -514,10 +516,13 @@ form textarea {
     line-height: 140%;
     color: #999;
 }
-code {
+#respond code {
     font-style: italic;
     font-size: 12px;
     font-weight: 11;
+    background:none;
+    border:none;
+    white-space: normal;
 }
 /* --------------------- Misc. stuff ------------------ */
 
@@ -637,17 +642,53 @@ article header {
 }
 
 .sign_up {
-    background: url(images/buttons/green-login.png) no-repeat scroll 0 0 transparent;
     color: #FFFFFF;
     display: block;
-    font-size: 16px;
-    height: 36px;
+    font-size: 18px;
+    letter-spacing: 1px;
     left: -5px;
-    line-height: 33px;
     margin-bottom: 10px;
     position: relative;
     text-align: center;
     text-decoration: none;
     text-shadow: 0 -1px #1A4D07;
-    width: 119px;
+    padding:10px 20px;
+    background-color: #93bd4e;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #888;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(147, 189, 78)), to(rgb(114, 171, 9)));
+    background-image: -webkit-linear-gradient(top, rgb(147, 189, 78), rgb(114, 171, 9));
+    background-image: -moz-linear-gradient(top, rgb(147, 189, 78), rgb(114, 171, 9));
+    background-image: -o-linear-gradient(top, rgb(147, 189, 78), rgb(114, 171, 9));
+    background-image: -ms-linear-gradient(top, rgb(147, 189, 78), rgb(114, 171, 9));
+    background-image: linear-gradient(top, rgb(147, 189, 78), rgb(114, 171, 9));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#93bd4e', EndColorStr='#72ab09');
+
+}
+
+.sign_up:hover{
+    text-decoration:none;
+    background-color: #72ab09;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 171, 9)), to(rgb(147, 189, 78)));
+    background-image: -webkit-linear-gradient(top, rgb(114, 171, 9), rgb(147, 189, 78));
+    background-image: -moz-linear-gradient(top, rgb(114, 171, 9), rgb(147, 189, 78));
+    background-image: -o-linear-gradient(top, rgb(114, 171, 9), rgb(147, 189, 78));
+    background-image: -ms-linear-gradient(top, rgb(114, 171, 9), rgb(147, 189, 78));
+    background-image: linear-gradient(top, rgb(114, 171, 9), rgb(147, 189, 78));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#72ab09', EndColorStr='#93bd4e');
+
+}
+
+code{
+    font-family:"Courier New", Courier, monospace;
+    font-size: 14px;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    margin: -2px 2px 0 2px;
+    padding: 2px 4px 0 4px;
+    font-style:normal;
 }
