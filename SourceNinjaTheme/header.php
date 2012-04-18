@@ -59,7 +59,7 @@
       <header id="header">
         <div class="wrapper clearfix">
             
-            <div id="logo"><a href="http://www.sourceninja.com"><img src="/wp-content/themes/SourceNinja_3/images/logo.png" alt="Source Ninja Logo" /></a></div>
+            <div id="logo"><a href="http://www.sourceninja.com"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Source Ninja Logo" /></a></div>
              <div class="menu-login">
             <div class="menu-login">
             <span><a href="https://app.sourceninja.com/d/users/sign_in">Login</a> | <a href="http://www.sourceninja.com/sign-up.html">Sign Up</a></span>
