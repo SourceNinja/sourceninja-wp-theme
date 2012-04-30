@@ -553,6 +553,7 @@ article footer {
 }
 .entry-title a {
     font-size: 30px;
+    line-height:40px;
     color: #005267;
 }
 header .comments-link {
@@ -618,6 +619,14 @@ article header {
 .menu li {
     list-style-type: none;
 }
+.bottom-of-post{
+    float:left;
+    background:#f3f3f3;
+    border:1px solid #ddd;
+    padding:10px;
+    margin-bottom:20px;
+}
+
 .bottom-of-post h3 {
     margin-bottom: 10px;
     color: #005267;
