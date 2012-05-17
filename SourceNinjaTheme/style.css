@@ -274,6 +274,23 @@ strong {
 
 /* Content
  ============================================================ */
+.author_info{
+    float:left; 
+    clear:both;
+    margin-bottom:0;    
+    font-size:18px;
+    font-weight:400;
+    color:#bbb;
+}
+.author_info img{
+    border:2px solid #ccc;
+    margin-top:5px; 
+}
+.author_info span{
+    vertical-align:top;
+    display: inline-block;
+    margin-top:4px;    
+}
 .bordertnone {
     border-top: none !important;
 }
