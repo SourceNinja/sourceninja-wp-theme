@@ -16,6 +16,10 @@
                 <span>Comments:</span> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'twentyeleven' ) . '</span>', _x( '1', 'comments number', 'twentyeleven' ), _x( '%', 'comments number', 'twentyeleven' ) ); ?>
             </div>
             <?php endif; ?>
+            <div class="author_info">
+                <?php echo get_avatar($post->post_author, '16', $avatar); ?>
+                <span><?php echo the_author_link(); ?></span>
+            </div>
         </header><!-- .entry-header -->
 
         <?php if ( is_search() ) : // Only display Excerpts for Search ?>
