@@ -38,27 +38,18 @@
     <div id="wrapper">
       <header id="header">
         <div class="wrapper clearfix">
-            
-            <div id="logo"><a href="http://www.sourceninja.com"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Source Ninja Logo" /></a></div>
-             <div class="menu-login">
+          <div id="logo"><a href="http://blog.sourceninja.com"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Source Ninja Logo" /></a></div>
+          <div class="menu-login">
             <div class="menu-login">
-            <span><a href="https://app.sourceninja.com/d/users/sign_in">Login</a> | <a href="http://www.sourceninja.com/sign-up.html">Sign Up</a></span>
+              <span><a href="https://app.sourceninja.com/d/users/sign_in">Login</a> | <a href="https://app.sourceninja.com/plans" onclick="_gaq.push(['_trackEvent', 'viewed plans', 'top-bar sign up'])">Sign Up</a></span>
+            </div>
           </div>
-          </div>
-             <nav>
-                <li><a href="http://blog.sourceninja.com/">Blog</a></li>
-                <li><a href="https://app.sourceninja.com/packages">Packages</a></li>
-                <li><a href="https://app.sourceninja.com/contact">Contact</a></li>
-            </nav>
-             
-             
-            
-            
-            </header>
-            <!-- <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2> -->
+          <nav>
+              <li><a href="https://app.sourceninja.com/plans" onclick="_gaq.push(['_trackEvent', 'viewed plans', 'top-bar plans and pricing'])">Plans & Pricing</a></li>
+              <li><a href="https://app.sourceninja.com/contact">Contact</a></li>
+          </nav>
         </div><!--.wrapper clearfix-->
-      
-  <div class="wrapper clearfix">
-      
-  </div>
-<div class="wrapper">
+      </header>
+            <!-- <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2> -->
+      <div class="wrapper clearfix"></div>
+      <div class="wrapper">

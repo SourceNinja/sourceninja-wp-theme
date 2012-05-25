@@ -3,7 +3,7 @@
         <div id="secondary">
             <h4>30-Day Free Trial</h4>
             <p>Know what patches are available so that you can upgrade your open source dependencies with confidence.</p>
-            <a href="https://app.sourceninja.com/plans" class="sign_up">Sign Up</a>
+            <a href="https://app.sourceninja.com/plans" onclick="_gaq.push(['_trackEvent', 'viewed plans', 'sidebar'])" class="sign_up">Sign Up</a>
         </div>
     </div>
     <div class="right_side">
