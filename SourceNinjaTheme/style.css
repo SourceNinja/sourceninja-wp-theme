@@ -720,3 +720,22 @@ code{
     padding: 2px 4px 0 4px;
     font-style:normal;
 }
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
