@@ -739,3 +739,16 @@ code{
     margin-left: auto;
     margin-right: auto;
 }
+
+/*--------------------- github gist -------------------------*/
+
+.gist pre{
+    font-size: 13px !important;
+    line-height: 140% !important;
+}
+
+div.gist-meta {
+    padding: 5px !important;
+    font-size: 11px !important;
+    line-height: 11px;
+}
